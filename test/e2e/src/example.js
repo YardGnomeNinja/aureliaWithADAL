@@ -9,6 +9,6 @@ describe('App', () => {
   it('should show the home page', () => {
     const title = browser.getTitle();
 
-    expect(title).toEqual('Aurelia');
+    expect(title).toEqual('PrometheusServicesChassisUIAurelia');
   });
 });

@@ -26,7 +26,7 @@ Includes the following features:
             "scripts/*.map": true
         }
 
-5.  Find all references to 'prometheusserviceschassisuiaurelia' and replace with the name of the new project.
+5.  Find all references to 'prometheusserviceschassisuiaurelia' and 'PrometheusServicesChassisUIAurelia' and replace with the name of the new project.
 
 6.  Update this README.md to pertain to the new project.
 
