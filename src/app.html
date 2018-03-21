@@ -1,4 +1,6 @@
 <template>
+    <div>${appName}</div>
+    <div>${appApiKey}</div>
     <ul repeat.for="nav of router.navigation">
         <li><a href.bind="nav.href">${nav.title}</a></li>
     </ul>

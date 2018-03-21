@@ -91,6 +91,11 @@
               "path": "../node_modules/adal-angular/dist",
               "main": "adal.min",
               "exports": "adal"
+          },
+          {
+              "name": "aurelia-configuration",
+              "path": "../node_modules/aurelia-configuration/dist/amd",
+              "main": "index"
           }
         ]
       }
