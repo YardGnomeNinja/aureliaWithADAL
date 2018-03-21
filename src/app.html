@@ -1,29 +1,6 @@
 <template>
-    <require from="bootstrap/css/bootstrap.css"></require>
-    <div>
-        <h1>${message}</h1>
-    </div>
-    <div>
-        <h3>Here are some links to help you get started:</h3>
-        <ul>
-            <li>
-                Aurelia - <a href="http://aurelia.io/docs/" target="_blank">http://aurelia.io/docs/</a>
-            </li>
-            <li>
-                Aurelia CLI - <a href="https://github.com/aurelia/cli" target="_blank">https://github.com/aurelia/cli</a>
-            </li>
-            <li>
-                Bootstrap 4.0 - <a href="https://getbootstrap.com/docs/4.0/getting-started/introduction/" target="_blank">https://getbootstrap.com/docs/4.0/getting-started/introduction/</a>                
-            </li>
-            <li>
-                Protractor - <a href="https://www.protractortest.org/#/api" target="_blank">https://www.protractortest.org/#/api</a>
-            </li>
-            <li>
-                Protractor Cheat Sheet - <a href="https://gist.github.com/javierarques/0c4c817d6c77b0877fda" target="_blank">https://gist.github.com/javierarques/0c4c817d6c77b0877fda</a>
-            </li>
-            <li>
-                Azure Active Directory Library (ADAL) - <a href="https://github.com/AzureAD/azure-activedirectory-library-for-js" target="_blank">https://github.com/AzureAD/azure-activedirectory-library-for-js</a>
-            </li>
-        </ul>
-    </div>
+    <ul repeat.for="nav of router.navigation">
+        <li><a href.bind="nav.href">${nav.title}</a></li>
+    </ul>
+    <router-view></router-view>
 </template>

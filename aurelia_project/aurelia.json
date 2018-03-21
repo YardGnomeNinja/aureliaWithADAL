@@ -85,6 +85,12 @@
             "resources": [
             "css/bootstrap.css"
             ]
+          },
+          {
+              "name": "adal",
+              "path": "../node_modules/adal-angular/dist",
+              "main": "adal.min",
+              "exports": "adal"
           }
         ]
       }

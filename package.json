@@ -8,6 +8,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "adal-angular": "^1.0.17",
     "aurelia-animator-css": "^1.0.2",
     "aurelia-bootstrapper": "^2.1.1",
     "bluebird": "^3.4.1",
@@ -18,6 +19,7 @@
   },
   "peerDependencies": {},
   "devDependencies": {
+    "@types/adal": "^1.0.29",
     "@types/jasmine": "^2.2.0",
     "@types/node": "^6.0.45",
     "aurelia-cli": "^0.31.3",
