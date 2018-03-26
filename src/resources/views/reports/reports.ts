@@ -1,3 +1,3 @@
 export class Reports {
-    viewName = "Reports"
+    viewName = "Reports";
 }

@@ -1,8 +1,10 @@
 <template>
-    <div>${appName}</div>
-    <div>${appApiKey}</div>
-    <ul repeat.for="nav of router.navigation">
+    <div>${sessionState.appName}</div>
+    <div>${sessionState.appApiKey}</div>
+    <ul repeat.for="nav of sessionState.router.navigation">
         <li><a href.bind="nav.href">${nav.title}</a></li>
     </ul>
+    <div if.bind="!sessionState.isLoggedIn()"><a href="#" click.delegate="logIn()">Log In</a></div>
+    <div if.bind="sessionState.isLoggedIn()"><a href="#" click.delegate="logOut()">Log Out</a></div>
     <router-view></router-view>
 </template>
