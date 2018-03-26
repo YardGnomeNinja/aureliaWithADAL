@@ -3,6 +3,6 @@
     "api": {
         "key": "1234"
     },
-    "azureADTenant": "schooldatebooks.com",
-    "azureADApplicationId": "2c5aa89f-2bec-40c4-9227-345c830cbbd4"
+    "azureADTenant": "azureADTenant.com",
+    "azureADApplicationId": "azureADApplicationId"
 }
